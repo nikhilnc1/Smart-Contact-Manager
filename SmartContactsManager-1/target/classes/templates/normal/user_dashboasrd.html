@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" xmlns:th = "http://www.thymeleaf.org" th:replace="~{normal/base::layout(~{::section})}">
+<head>
+	<meta charset="UTF-8" />
+	<title>User dashboard</title>
+</head>
+<body>
+	<section class="banner">
+		<h1 style = "padding : 30px">hey, <b><span th:text="${user.name}"></span></b> </h1>
+
+		<div style="d-flex justify-content-center align-items-center">
+			<div class = "text-center">
+
+				<h2 style="padding-top : 40px;">Welcome to Smart Contact Manager</h2>
+
+
+			</div>
+
+		</div>
+
+	</section>
+</body>
+</html>
